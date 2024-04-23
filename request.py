@@ -35,7 +35,7 @@ def reliable_link_route_request(Sid, Did, theta_i, front_relative_nodes, Pi, Vi,
         for node in routing_table:
             if has_path_to(node, Did, routing_table):
                 # Receiving node is destination node or it has path to destination
-                #insert snippet to skip to 
+                #insert snippet to skip to line 52
             elif node in front_relative_nodes:
                 # If receiving node is front relative node
                 Si = calculate_Si(node, Did)
